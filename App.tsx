@@ -1,9 +1,8 @@
-
 import React, { useState, useEffect, useRef } from 'react';
-import { analyzeSkinImage } from './services/geminiService';
+import { analyzeSkinImage } from './geminiService';
 import { TimelineEntry, SkinAnalysis, DetailCategory } from './types';
-import ProgressionCompare from './components/ProgressionCompare';
-
+import ProgressionCompare from './ProgressionCompare';
+import AnalysisView from './AnalysisView';
 /* ================= UI WIDGETS ================= */
 
 const LiquidGlassButton: React.FC<{ 
