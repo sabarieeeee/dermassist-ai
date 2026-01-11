@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { SkinAnalysis, DetailCategory } from '../types';
+import { SkinAnalysis, DetailCategory } from './types';
 
 interface NavCardProps {
   title: string;
