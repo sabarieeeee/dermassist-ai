@@ -3,6 +3,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { analyzeSkinImage } from './geminiService';
 import { TimelineEntry, SkinAnalysis, DetailCategory } from './types';
 import ProgressionCompare from './ProgressionCompare';
+
 /* ================= UI WIDGETS ================= */
 
 const LiquidGlassButton: React.FC<{ 
